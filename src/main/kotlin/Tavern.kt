@@ -28,9 +28,23 @@ narrate("$heroName enters $TAVERN_NAME",
     patrons.remove("Eli")
     narrate("Alex enters the tavern")
     patrons.add("Alex")
-    println(patrons)
     narrate("Alex (VIP) enters the tavern")
     patrons.add(0,"Alex")
     patrons[0]="Alexis"
-    println(patrons)
+
+//    for (patron in patrons){
+//        println("Good evening, $patron")
+//    }
+
+    patrons.forEachIndexed { index, patron ->
+        println("Good evening, $patron - you're #${index+1} in line")
+    placeOrder(patron, "Dragon's Breath")
+    }
+}
+
+private fun placeOrder(patronName: String, menuItemName: String){
+    narrate("$patronName speaks with $TAVERN_MASTER to place an order",
+        ::makeGreen)
+    narrate("$TAVERN_MASTER hands $patronName a $menuItemName",
+        ::makeGreen)
 }
