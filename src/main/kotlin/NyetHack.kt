@@ -1,14 +1,29 @@
 package org.example
+var heroName:String=""
 
 fun main() {
+
+heroName=promptHeroName()
+  //  changeNarratorMood()
+    narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
+    visitTavern()
+}
+
+private fun promptHeroName(): String {
+
     narrate("A hero enters the town of Kronstadt. What is their name?",
         ::makeYellow)
 
-    val heroName = readLine()
-    require(heroName!=null&&heroName.isNotEmpty()){
-        "Hero name cannot be empty"
-    }
+    /*val input = readLine()
 
-    changeNarratorMood()
-    narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
+require(input != null && input.isNotEmpty()) {
+
+"The hero must have a name."
+
+}
+
+return input*/
+
+    println("Madrigal")
+    return "Madrigal"
 }
