@@ -1,7 +1,13 @@
 package org.example
 
+import java.io.File
+
 private const val TAVERN_MASTER = "Tatooine"
 private const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
+
+private val menuData = File ("src/main/resources/tavern-menu-data.txt")
+    .readText()
+    .split("\n")
 
 fun visitTavern(){
 narrate("$heroName enters $TAVERN_NAME",
@@ -47,4 +53,8 @@ private fun placeOrder(patronName: String, menuItemName: String){
         ::makeGreen)
     narrate("$TAVERN_MASTER hands $patronName a $menuItemName",
         ::makeGreen)
+
+    menuData.forEachIndexed { index, data ->
+        println("$index: $data")
+    }
 }
