@@ -1,6 +1,8 @@
 package org.example
 
 fun makeYellow(message:String)="\u001b[33;1m$message\u001b[0m"
+fun makeGreen (message:String)="\u001b[32;1m$message\u001b[0m"
+fun makeBlue (message:String)="\u001b[36;1m$message\u001b[0m"
 
 fun createTitle(name :String):String{
     return when{

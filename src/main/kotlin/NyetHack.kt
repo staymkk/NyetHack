@@ -5,7 +5,8 @@ fun main() {
 
 heroName=promptHeroName()
   //  changeNarratorMood()
-    narrate("$heroName, ${createTitle(heroName)}, heads to the town square")
+    narrate("$heroName, ${createTitle(heroName)}, heads to the town square",
+        ::makeBlue)
     visitTavern()
 }
 
