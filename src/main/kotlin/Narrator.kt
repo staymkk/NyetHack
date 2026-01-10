@@ -1,14 +1,14 @@
 package org.example
 
-import javax.lang.model.element.Modifier
 import kotlin.random.Random
 import kotlin.random.nextInt
 
 var narrationModifier:(String)->String={it}
-fun narrate(
-    message: String
+inline fun narrate(
+    message: String,
+    modifier:(String)->String={narrationModifier(it)}
 ){
-    println(narrationModifier(message))
+    println(modifier(message))
 }
 
 fun changeNarratorMood() {
