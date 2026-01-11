@@ -19,7 +19,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/ваш-username/NyetHack.git
+git clone https://github.com/staymkk/NyetHack.git
 
 # Запустить через Gradle
 ./gradlew run
