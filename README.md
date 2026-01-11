@@ -4,7 +4,7 @@
 
 ![Book Project](https://img.shields.io/badge/From-Kotlin_for_Professionals-book)
 ![GitHub last commit](https://img.shields.io/github/last-commit/staymkk/NyetHack)
-![Progress](https://img.shields.io/badge/Progress-Chapter_9.4-588157)
+![Progress](https://img.shields.io/badge/Progress-Chapter_9.13-588157)
 
 Учебный проект, создаваемый в процессе изучения книги **"Kotlin. Программирование для профессионалов"** (издательство "Питер").
 
