@@ -1,7 +1,5 @@
 package org.example
 
-//import java.io.File
-
 const val TAVERN_MASTER = "Tatooine"
 const val TAVERN_NAME = "$TAVERN_MASTER's Folly"
 
@@ -45,26 +43,15 @@ private val lastNames = setOf(
     "Cleverhand"
 )
 
-//val menuData = File("src/main/resources/tavern-menu-data.txt")
-//    .readText()
-//    .split("\n")
-
-//private val menuItems = List(menuData.size) { index ->
-//    val (type, name, price) = menuData[index].split(",")
-//    name
-//}
-
 fun visitTavern() {
     narrate(
         "$heroName enters $TAVERN_NAME",
         ::makeGreen
     )
     narrate("There are several items for sale:")
-//    narrate(
-//        menuItems.joinToString(),
-//        ::makeBlue
-//    )
-menuOutput()
+
+    menuOutput()
+    println(patronsGold)
 
     val patrons: MutableSet<String> = mutableSetOf()
     repeat(10) {
@@ -99,8 +86,4 @@ fun placeOrder(patronName: String, menuItemName: String) {
         "$TAVERN_MASTER hands $patronName a $menuItemName",
         ::makeGreen
     )
-
-//    menuData.forEachIndexed { index, data ->
-//        println("$index: $data")
-//    }
 }

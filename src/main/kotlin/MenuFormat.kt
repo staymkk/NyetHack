@@ -60,7 +60,7 @@ fun menuOutput() {
 
         println("  ~[$type]~")
         itemsInCategory.forEach { (_, formattedItem, _) ->
-            println("$formattedItem")
+            println(formattedItem)
         }
     }
 }
