@@ -1,19 +1,24 @@
 package org.example
-var heroName:String=""
+
+var heroName: String = ""
 
 fun main() {
 
-heroName=promptHeroName()
-  //  changeNarratorMood()
-    narrate("$heroName, ${createTitle(heroName)}, heads to the town square",
-        ::makeBlue)
+    heroName = promptHeroName()
+    //  changeNarratorMood()
+    narrate(
+        "$heroName, ${createTitle(heroName)}, heads to the town square",
+        ::makeBlue
+    )
     visitTavern()
 }
 
 private fun promptHeroName(): String {
 
-    narrate("A hero enters the town of Kronstadt. What is their name?",
-        ::makeYellow)
+    narrate(
+        "A hero enters the town of Kronstadt. What is their name?",
+        ::makeYellow
+    )
 
     /*val input = readLine()
 
