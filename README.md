@@ -4,7 +4,7 @@
 
 ![Book Project](https://img.shields.io/badge/From-Kotlin_for_Professionals-book)
 ![GitHub last commit](https://img.shields.io/github/last-commit/staymkk/NyetHack)
-![Progress](https://img.shields.io/badge/Progress-Chapter_9.13-588157)
+![Progress](https://img.shields.io/badge/Progress-Chapter_10-588157)
 
 Учебный проект, создаваемый в процессе изучения книги **"Kotlin. Программирование для профессионалов"** (издательство "Питер").
 
@@ -12,7 +12,7 @@
 
 Этот проект - практическое выполнение примеров и упражнений из книги. NyetHack - текстовая RPG игра.
 
-<img width="846" height="634" alt="image" src="https://github.com/user-attachments/assets/0f30315d-936c-43a0-97a2-9c94e63cee49" />
+![img.png](img.png)
 
 
 ## Как запустить
