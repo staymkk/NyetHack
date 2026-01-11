@@ -5,3 +5,23 @@ desert dessert,Pickled Camel Hump,7.33
 elixir,Iced Boilermaker,11.22
 deserved dessert,Hard Day's Work Ice Cream,3.21
 meal,Bite of Lembas Bread,0.59
+elixir,Fairy's Fizz,8.45
+shandy,Fire Drake Ale,6.75
+ale,Dwarven Stout,4.80
+wine,Elven Moonwine,12.30
+meal,Griffin Steak,18.75
+stew,Troll Gumbo,9.80
+dessert,Unicorn Cupcakes,5.99
+snack,Griffin Jerky,4.25
+special,Phoenix Tears,45.00
+potion,Invisibility Draft,28.75
+mead,Honeyed Nectar,5.25
+potion,Philosopher's Draught,15.90
+roast,Dragon Ribs,22.50
+pie,Minotaur Meat Pie,11.25
+tart,Fairy Berry Tart,6.80
+cake,Wizard's Layer Cake,9.45
+elixir,Everlasting Youth,99.99
+brew,Witch's Brew,7.60
+soup,Mushroom Forest Chowder,6.40
+skewer,Goblin Kabob,8.90
